@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testando hover</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        div:hover{
+            color:aquamarine;
+            font-weight: bold;
+        }
+
+        div > p {
+            display:none;
+        }
+        
+        div:hover > p{
+            display: block;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Testando o truque de esconder um texto em css</h1>
+    <p>Passe o mouse no texto abaixo</p>
+    <div>Passe o mouse aqui
+        <p>Texto escondidoooo</p>
+    </div>
+</body>
+</html>
