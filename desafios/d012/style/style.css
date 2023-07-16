@@ -4,7 +4,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
 
-:root{
+:root {
     --font1: Verdana, Geneva, Tahoma, sans-serif;
     --font2: 'Passion One', cursive;
     --font3: 'Sriracha', cursive;
@@ -22,13 +22,13 @@ html, body {
     font-family: var(--font1);
 }
 
-header{
+header {
     background-color: black;
     color: white;
     text-align: center;
 }
 
-header > h1{
+header > h1 {
     padding-top: 50px;
     font-variant: small-caps;
     font-family: var(--font2);
@@ -45,11 +45,11 @@ a{
     font-weight: bolder;
 }
 
-a:hover{
+a:hover {
     text-decoration: underline;
 }
 
-section{
+section {
     padding-top: 10vh;
     padding-bottom: 10vh;
     line-height: 2em;
@@ -58,23 +58,41 @@ section{
     font-size: 3.5vw;
 }
 
-section.normal{
+section > p {
+    padding-bottom: 2em;
+}
+
+section.normal {
     background-color: white;
     color: black;
 }
 
-section.image{
+section.image {
     background-color: rgb(51, 51, 51);
     color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473);
+    background-size: cover;
+    background-attachment: fixed;
 }
 
-section.image > p{
+section.image > p {
     display: inline-block;
     padding: 5px;
-    background-color: rgba(0, 0, 0, 0.253);
+    background-color: rgba(0, 0, 0, 0.514);
+    text-shadow: 1px 1px 0px black;
 }
 
-footer{
+section#img01 {
+    background-image: url(../images/background001.jpg);
+    background-position: right center;
+
+}
+
+section#img02 {
+    background-image: url(../images/background002.jpg);
+}
+
+footer {
     background-color: black;
     color: white;
     text-align: center;
