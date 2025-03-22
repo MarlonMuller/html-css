@@ -1,0 +1,108 @@
+/* Estilos gerais */
+
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: #000;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    max-width: 1200px;
+}
+
+/* Header section */
+
+.header-section {
+    text-align: center;
+    color: #ccc;
+}
+
+.title {
+    font-size: 38px;
+}
+
+.subtitle {
+    font-size: 28px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+
+.subtitle::after {
+    content: "";
+    width: 100px;
+    height: 1px;
+    background-color: #ac0ab5;
+}
+
+/* Tecnologias */
+
+.container-icons {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0;
+}
+
+/* Projetos */
+
+.info-projects {
+    display: flex;
+    gap: 38px;
+    margin-top: 50px;
+    color: #fff;
+}
+
+.card-projects {
+    background-color: #353333;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    min-height: 600px;
+    height: fit-content;
+}
+
+.info-card-project {
+    padding: 28px;
+}
+
+.info-card-project h3 {
+    color: #ccc;
+    font-size: 28px;
+    font-weight: normal;
+}
+
+.info-card-project p {
+    color: #ccc;
+    font-size: 18px;
+}
+
+.legend-project p {
+    color: #ccc;
+    font-size: 14px;
+}
+
+.legend-project span {
+    color: #ccc;
+    font-weight: bold;
+}
+
+.footer-project {
+    display: flex;
+    justify-content: space-between;
+}
+
+.url-project, .code-project {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.url-project a, .code-project a {
+    color: #ccc;
+}

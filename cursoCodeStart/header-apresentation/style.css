@@ -1,0 +1,128 @@
+/*Regras gerais*/
+
+body {
+    margin: 0;
+    top: 0;
+    background-color: #000;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    max-width: 1200px;
+    padding: 0 20px;
+    margin: 10px auto;
+}
+
+/* header section */
+
+.header-section {
+    text-align: center;
+    color: #cccccc;
+}
+
+.title {
+    font-size: 35px;
+}
+
+.subtitle {
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.header-section h2::after {
+    content: "";
+    width: 100px;
+    height: 1px;
+    background-color: #E500CE;
+}
+
+
+
+/* Header */
+.info-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info-menu {
+    display: flex;
+    align-items: center;
+}
+
+.menu {
+    margin: 10px;
+}
+
+.menu ul {
+    display: flex;
+}
+
+.menu ul li {
+    padding: 10px;
+    list-style: none;
+}
+
+.menu ul li a {
+    color: #A7A7A7;
+    text-decoration: none;
+    transition: color 1s;
+}
+
+.menu ul li a:hover {
+    color: #E500CE;
+}
+
+.menu-icons {
+    display: flex;
+    gap: 10px;
+}
+
+/* apresentation */
+
+.info-apresentation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+
+.info-apresentation h1 {
+    font-size: 58px;
+}
+
+.info-apresentation span {
+    background: linear-gradient(90deg, rgba(19,176,245,1) 3%, rgba(132,90,205,1) 55%, rgba(231,15,170,1) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.profile-photo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 350px;
+    border-radius: 100%;
+    background: linear-gradient(180deg, rgba(231,15,170,1) 25%, rgba(19,176,245,1) 100%, rgba(132,90,205,1) 100%);
+}
+
+.profile-photo img {
+    width: 335px;
+}
+
+
+/* about me */
+
+.info-aboutme {
+     color: #cccccc;
+}
