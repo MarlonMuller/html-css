@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+}
+
+#silvio {
+    position: absolute;
+    bottom: 0;
+}
+
+
+#text {
+    position: absolute;
+    bottom: 0px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    width: 634px;
+    padding: 10px;
+    font-size: 18px;
+}

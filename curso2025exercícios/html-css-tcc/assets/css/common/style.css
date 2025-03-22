@@ -1,0 +1,510 @@
+/* Geral */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    margin: 0 auto;
+    width: 90%;
+    max-width: 1580px;
+}
+
+button {
+    width: 165px;
+    height: 60px;
+    color: #fff;
+    border: none;
+    font-size: 14px;
+}
+
+a {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.07px;
+    color: #898989;
+    text-decoration: none;
+}
+
+
+/* Tela inteira */
+
+.bannerTelaInteira {
+    position: relative;
+}
+
+.bannerTelaInteira>img {
+    width: 100%;
+}
+
+.bannerTelaInteira button {
+    background-color: #FF8E6E;
+}
+
+.bannerTelaInteira::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: red;
+}
+
+.bannerTelaInteiraContent {
+    position: absolute;
+    color: #fff;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.bannerTelaInteiraContent>.container>h1 {
+    font-size: 48px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+
+/* Tela dividida em duas */
+
+.bannerTelaDivididaEmDuas button {
+    background-color: #515070;
+}
+
+.bannerTelaDivididaEmDuas {
+    display: flex;
+    justify-content: space-between;
+    padding: 140px 0;
+    background-color: #f6f6f6;
+}
+
+.bannerTelaDivididaEmDuasContent {
+    max-width: 40%;
+}
+
+.bannerTelaDivididaEmDuas h2 {
+    color: #FF8E6E;
+    font-size: 48px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 0;
+}
+
+.bannerTelaDivididaEmDuas p {
+    line-height: 29px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+}
+
+
+
+/* Tela dividida em três home */
+.section5 {
+    background-color: #5C5A89;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.section5 h2 {
+    color: #FF8E6E;
+    font-size: 48px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 0;
+}
+
+.bannerTelaDivididaEmTres {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bannerTelaDivididaEmTres .compartimentos {
+    max-width: 30%;
+}
+
+.bannerTelaDivididaEmTres .compartimentos .compartimentos {
+    display: flex;
+    flex-direction: column;
+}
+
+.bannerTelaDivididaEmTres .compartimentos .compartimento {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.bannerTelaDivididaEmTres .compartimentos .compartimento img {
+    display: block;
+    height: 50px;
+}
+
+.bannerTelaDivididaEmTres .compartimentos .compartimento .parte1 {
+    padding: 10px;
+    text-align: left;
+    color: #fff;
+}
+
+.bannerTelaDivididaEmTres .compartimentos .compartimento .parte1 h3 {
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.94px;
+}
+
+.bannerTelaDivididaEmTres .compartimentos .compartimento .parte1 p {
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+
+
+
+
+
+
+
+/* Tela dividida em três sobre */
+.section3sobre {
+    background-color: #F6F6F6;
+    text-align: left;
+    padding-top: 30px;
+    height: 420px;
+    display: flex;
+    align-items: center;
+}
+
+.section3sobre h2 {
+    color: #FF8E6E;
+    font-size: 48px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 0;
+}
+
+.section3sobre .bannerTelaDivididaEmTres {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section3sobre .bannerTelaDivididaEmTres .compartimentos {
+    max-width: 25%;
+}
+
+.section3sobre .bannerTelaDivididaEmTres .compartimentos .compartimento {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: flex-start;
+}
+
+
+.section3sobre .bannerTelaDivididaEmTres .compartimentos .compartimento .parte1 {
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    text-align: left;
+    gap: 20px;
+}
+
+.section3sobre .bannerTelaDivididaEmTres .compartimentos .compartimento .parte1 h3 {
+    font-family: Montserrat;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 51.2px;
+    color: #515070;
+    margin: 0;
+
+}
+
+.section3sobre .bannerTelaDivididaEmTres .compartimentos .compartimento .parte1 p {
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+
+
+/* Tela dividida em três contato */
+.section2contato {
+    background-color: #F6F6F6;
+    text-align: left;
+    height: 555px;
+    display: flex;
+    align-items: center;
+}
+
+.section2contato h2 {
+    color: #FF8E6E;
+    font-size: 48px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 0;
+}
+
+.section2contato .bannerTelaDivididaEmTres {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section2contato .bannerTelaDivididaEmTres .compartimentos {
+    width: 30%;
+}
+
+.section2contato .bannerTelaDivididaEmTres .compartimentos .compartimento {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: flex-start;
+}
+
+.section2contato .bannerTelaDivididaEmTres .compartimentos .div3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #fff;
+    padding: 30px 0 0 50px;
+    background-color: #5E5C8F;
+    height: 555px;
+}
+
+.section2contato .bannerTelaDivididaEmTres .compartimentos .div3 h3 {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24.38px;
+}
+
+.section2contato .bannerTelaDivididaEmTres .compartimentos .compartimento .divsInternas {
+    gap: 260px;
+}
+
+.section2contato .bannerTelaDivididaEmTres .compartimentos .compartimento .divInterna {
+    display: flex;
+    align-items: center;
+    margin: 0 0 60px 0;
+    max-width: 270px;
+    gap: 15px;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.section2contato .bannerTelaDivididaEmTres .compartimentos .compartimento .divInterna img {
+    display: block;
+    height: 29px;
+}
+
+.div1 {
+    height: 400px;
+    padding: 30px 10px 0 10px;
+    gap: 20px;
+}
+
+.div2 {
+    height: 400px;
+    padding: 30px 10px 0 10px;
+    gap: 20px;
+}
+
+.div2 p {
+    margin: 0;
+    color: #898989;
+}
+
+label {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17.07px;
+    color: #898989;
+}
+
+
+textarea {
+    border: none;
+    border-bottom: 2px solid #F5F5F5;
+    outline: none;
+    width: 230%;
+}
+
+.inputText {
+    border: none;
+    border-bottom: 2px solid #F5F5F5;
+    outline: none;
+    width: 100%;
+    height: 30px;
+}
+
+.envelope {
+    display: flex;
+    align-self: self-end;
+}
+
+.buttonFormulario {
+    background-color: #5E5C8F;
+    display: flex;
+    text-align: center;
+    align-self: flex-end;
+    justify-self: flex-end;
+}
+
+.divRelative {
+    position: relative;
+}
+
+.buttonForm {
+    position: absolute;
+    right: 0;
+}
+
+.section2contato .bannerTelaDivididaEmTres .compartimentos .div1 h3 {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24.38px;
+    color: #FF8E6E;
+}
+
+
+
+
+
+
+/* Tela dividida em quatro */
+.section2Sobre {
+    padding-top: 30px;
+    height: 490px;
+}
+
+.section2Sobre h2 {
+    font-size: 48px;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+.bannerTelaDivididaEmQuatro {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bannerTelaDivididaEmQuatro .compartimentos {
+    max-width: 25%;
+}
+
+.bannerTelaDivididaEmQuatro .compartimentos {
+    display: flex;
+    flex-direction: column;
+}
+
+.bannerTelaDivididaEmQuatro .compartimentos .compartimento {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+}
+
+.bannerTelaDivididaEmQuatro .compartimentos .compartimento:hover .overlay {
+    display: block;
+}
+
+.overlay {
+    display: none;
+    position: absolute;
+    padding: 5px;
+    bottom: 0;
+    background-color: #00000069;
+    color: #fff;
+    width: 100%;
+    height: 50%;
+}
+
+.overlay .name {
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.94px;
+}
+
+.overlay .function {
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+
+
+
+/* Tela dividida em dois com cards */
+
+.telaDivididaEmDuas {
+    display: flex;
+    flex-direction: column;
+    padding: 140px 0;
+}
+
+.telaDivididaEmDuas h2 {
+    color: #FF8E6E;
+    font-size: 48px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 0;
+}
+
+.telaDivididaEmDuas p {
+    line-height: 29px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    background-color: #fff;
+    padding: 20px;
+    max-width: 48%;
+}
+
+.parte1Card {
+    display: flex;
+}
+
+.parte1Card img {
+    width: 15%;
+}
+
+.parte2Card {
+    padding: 15px;
+}
+
+.card .name {
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.card .date {
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 400;
+    color: #FF8E6E;
+}
+
+
+/* Outros */
+
+.section246home {
+    background-color: #F6F6F6;
+}

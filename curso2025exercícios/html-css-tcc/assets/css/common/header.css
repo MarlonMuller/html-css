@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+
+
+
+.header {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+img {
+    max-width: 100%;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+}
+
+li {
+    margin: 20px;
+}
+

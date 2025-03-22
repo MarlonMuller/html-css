@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+
+
+
+.footer {
+    background-color: #fff;
+}
+
+img {
+    max-width: 100%;
+}
+
+.footer .primeiraLinha {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer .segundaLinha {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    padding: 0px;
+}
+
+li {
+    margin: 0 20px 0 0;
+}
